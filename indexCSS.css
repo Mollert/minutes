@@ -1,0 +1,119 @@
+
+@font-face { src: url("./assets/ToxT.ttf"); font-family: tT; }
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.flexRowStart {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.flexRowStartCenter {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.flexColumn {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+#mainBody {
+	width: 96vw;
+	height: auto;
+	margin: 2vw 0 0 2vw;
+	background-color: #93C572;
+	font-family: tT;
+	font-size: 1.4rem;
+}
+
+#mainTitle {
+	padding: 3rem 0.6rem 0 0.6rem;
+	font-size: 2.2rem;
+	text-align: center;
+}
+
+#subTitle {
+	margin: 0rem 0.6rem 2rem 0.6rem;
+	font-size: 1.8rem;
+	text-align: center;
+}
+
+#boardBody {
+	margin: 0rem 2rem 0 2rem;
+}
+
+#boardTitle {
+	margin: 0rem 0 1.2rem 0;
+	font-size: 1.6rem;
+	text-align: center;	
+}
+
+.officerBox {
+	width: 15.2rem;
+	height: 6rem;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.inset {
+	margin: 0 0 0 0.6rem;
+}
+
+.email {
+	font-size: 1.1rem;
+}
+
+/*--- Minutes ---*/
+
+#meetingMinutes {
+	margin: 1rem 0 0 0;
+	font-size: 1.6rem;	
+}
+
+.linkBox {
+	margin: 1.4rem 0.6rem 0 0.6rem;
+	width: 2.7rem;
+	height: 2.7rem;
+}
+
+img {
+	width: 2.7rem;
+	height: 2.7rem;
+}
+
+.descriptionBox {
+	margin: 1.4rem 0 0 0;
+	width: 11.2rem;
+	height: 2.7rem;
+	font-size: 1.3rem;
+}
+
+#lastMinute {
+	margin: 0 0 1.4rem 0;
+}
+
+
+.divider {
+	height: 0.7rem;
+	margin: 0.3rem 2rem 0 2rem;
+	border-top: 0.3rem solid #6f4e37;
+}
+
+/*--- Adding to Bottom ---*/
+
+#clearBottom {
+	width: 100%;
+	height: 4vw;
+}

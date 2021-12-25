@@ -1,2 +1,1 @@
-# minutes
-Meeting minutes form my home-owners association
+Board meeting minutes from my homeowners association

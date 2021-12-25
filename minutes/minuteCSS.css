@@ -1,0 +1,80 @@
+
+@font-face { src: url("../assets/QuendaM.otf"); font-family: qM; }
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.flexRow {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.theBody {
+	width: 96vw;
+	height: auto;
+	margin: 2vw 0 0 2vw;
+	background-color: #93C572;
+	font-family: qM;
+	font-size: 1.4rem;
+}
+
+.theTitle {
+	padding: 3rem 0.6rem 0 0.6rem;
+	font-size: 2rem;
+	text-align: center;
+}
+
+.theDate {
+	margin: 0 0.6rem 0 0.6rem;
+	font-size: 1.6rem;
+	text-align: center;
+}
+
+.theBoard {
+	margin: 0 0.6rem 2rem 0.6rem;
+	font-size: 1.6rem;
+	text-align: center;
+}
+
+.theMinutes {
+	margin: 0 2rem 0 2rem;
+}
+
+.whenHeld {
+	margin: 0 0 1.4rem 0;
+}
+
+.tab {
+	margin: 0 0 0 0.6rem;
+}
+
+.theLine {
+	height: 0.7rem;
+	margin: 0.3rem 2rem 0 2rem;
+	border-top: 0.3rem solid #6f4e37;
+}
+
+/*--- Going Home Section ---*/
+
+.goHome {
+	margin: 1rem 3rem 2rem 3rem;
+}
+
+.back {
+	color: #6f4e37;	
+}
+
+.back:hover {
+	color: blue;
+}
+
+/*--- Adding to Bottom ---*/
+
+.extendBottom {
+	width: 100%;
+	height: 4vw;
+}

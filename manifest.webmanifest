@@ -1,0 +1,22 @@
+{
+  "short_name": "Minutes",
+  "name": "Meeting Minutes",
+  "description": "Phillip's Gate Board and meeting minutes",
+  "icons": [
+    {
+      "src": "./assets/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./assets/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "http://",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#93C572"
+}
