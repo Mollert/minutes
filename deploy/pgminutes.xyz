@@ -1,0 +1,14 @@
+server {
+	listen 80 default_server;
+	listen [::]:80 default_server;
+
+	root /var/www/html/pgminutes.xyz;
+
+	index index.html;
+
+	server_name pgminutes.xyz www.pgminutes.xyz;
+
+	location / {
+		try_files $uri $uri/ =404;
+	}
+}
